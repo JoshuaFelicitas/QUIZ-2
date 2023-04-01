@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+    
+}
+.header{
+    background-color: green;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.header h1{
+    text-align: center;
+    color: white;
+}
+.container{
+    border: solid black 2px;
+    padding: 10px;
+    display: flexbox;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.answerbox{
+
+    border: solid black 1px;
+    margin: 0% auto;
+    padding: 0 20px;
+    width: 30%;
+}
+label{
+    font-weight: bold;
+}
+input{
+    padding: 2px;
+}
+button:hover{
+    background-color: gray;    
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
